@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widgetLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/waall"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/wall" />
+
+    <ProgressBar
+        android:id="@+id/batteryBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="145dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:progress="0"
+        android:progressDrawable="@drawable/rounded_progress_bar" />
+
+    <ImageView
+        android:id="@+id/phoneIco"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="24dp"
+        android:src="@drawable/phone"
+        tools:srcCompat="@drawable/phone" />
+
+    <TextView
+        android:id="@+id/batteryPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/kanit_medium"
+        android:gravity="fill_vertical|fill_horizontal"
+        android:text="0%"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/system_accent2_100"
+        android:textSize="14sp"
+        android:typeface="monospace"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/chargeIcon"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/charger"
+        android:visibility="gone"
+        tools:visibility="invisible" />
+
+
+</RelativeLayout>
