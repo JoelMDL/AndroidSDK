@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="%0"
-            android:textColor="@android:color/system_accent2_100"
+            android:textColor="@android:color/system_accent1_700"
             android:textSize="14sp"
             app:layout_constraintBottom_toBottomOf="@id/batteryProgressBar"
             app:layout_constraintEnd_toEndOf="@id/batteryProgressBar"

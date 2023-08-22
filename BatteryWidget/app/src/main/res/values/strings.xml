@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">BatteryWidget</string>
+    <string name="app_name">Battery Widget</string>
+    <string name="widget_desc">Watch your battery drain!</string>
+    <string name="phone_desc">phoneimg</string>
 </resources>

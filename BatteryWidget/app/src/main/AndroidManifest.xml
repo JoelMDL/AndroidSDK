@@ -23,6 +23,13 @@
             </intent-filter>
         </activity>
 
+
+        <service
+            android:name=".BatteryListener"
+            android:enabled="true"
+            android:exported="false" />
+
+
         <receiver
             android:name=".BatteryWidgetProvider"
             android:label="Battery Widget"
@@ -32,7 +39,7 @@
             </intent-filter>
             <meta-data
                 android:name="android.appwidget.provider"
-                android:resource="@xml/widget_provider_info" />
+                android:resource="@xml/widget_provider_info" /> <!-- Update this reference to match your actual XML resource -->
         </receiver>
 
     </application>

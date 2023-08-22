@@ -49,13 +49,13 @@
         android:layout_marginHorizontal="0dp"
         android:layout_marginTop="0dp"
         android:layout_marginEnd="28dp"
-        android:layout_marginBottom="0dp"
+        android:layout_marginBottom="-1dp"
         android:fontFamily="@font/kanit_medium"
         android:gravity="fill_vertical|fill_horizontal"
         android:text="0%"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="@android:color/system_accent2_100"
+        android:textColor="@android:color/system_accent1_700"
         android:textSize="14sp"
         android:typeface="monospace"
         tools:ignore="RtlCompat" />
@@ -74,6 +74,5 @@
         android:src="@drawable/charger"
         android:visibility="gone"
         tools:visibility="invisible" />
-
 
 </RelativeLayout>
