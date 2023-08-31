@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.test.batterywidget"
+    namespace = "android13.battery.widget"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.test.batterywidget"
+        applicationId = "android13.battery.widget"
         minSdk = 31
         targetSdk = 33
         versionCode = 1
